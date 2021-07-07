@@ -53,7 +53,7 @@ html {
   width: 100%;
   text-align: center;
   letter-spacing: 8px;
-  font-size: 32px;
+  font-size: 27px;
   color: blanchedalmond;
   text-transform: uppercase;
 }
@@ -65,4 +65,12 @@ html {
 
 .ptext .trans {
   background-color: transparent;
+}
+
+@media (max-width: 576px) {
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: scroll;
+  }
 }
